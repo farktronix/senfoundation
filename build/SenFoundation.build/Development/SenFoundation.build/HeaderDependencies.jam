@@ -1,0 +1,63 @@
+rule DefineHeaderDependencies
+{
+	INCLUDES "$(PROJECT_DIR)/NSArray_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSArray_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSArray_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSBundle_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSBundle_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSException_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSException_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSMutableDictionary_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSMutableDictionary_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenAdditions.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenRuntimeUtilities.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenAssertion.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenInvocationEnumerator.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenClassEnumerator.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenRuntimeUtilities.m" : "/usr/include/objc/objc-class.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenRuntimeUtilities.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenInvocationEnumerator.h" : "/usr/include/objc/objc.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenInvocationEnumerator.h" : "/usr/include/objc/objc-class.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenClassEnumerator.h" : "/usr/include/objc/objc-runtime.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenTree.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenTree.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSObject_SenTree.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTreeEnumerator.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSObject_SenTree.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTrees.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTreeEnumerator.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTrees.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSString_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSString_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSString_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSTask_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSArray_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSBundle_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSTask_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSString_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSUserDefaults_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/NSUserDefaults_SenAdditions.h" ;
+	INCLUDES "$(PROJECT_DIR)/NSUserDefaults_SenAdditions.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenAssertion.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenClassEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenClassEnumerator.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenClassEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenAssertion.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenClassEnumerator.m" : "/usr/include/objc/objc-runtime.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenCollection.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenCollection.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenCollection.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenAssertion.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenDateInterval.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenDateInterval.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenDateInterval.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenEmptiness.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenEmptiness.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenFileSystemTree.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFileSystemTree.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenFileSystemTree.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFileSystemTree.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTrees.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenInvocationEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenInvocationEnumerator.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenSelection.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenSelection.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenSelection.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenSelection.h" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundationDefines.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenTreeEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenTreeEnumerator.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenTreeEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenTreeEnumerator.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenEmptiness.h" ;
+	INCLUDES "$(PROJECT_DIR)/SenUtilities.m" : "/Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenUtilities.h" ;
+}
+
+DefineHeaderDependencies "<SenFoundation>SenFoundation.framework" ;
+

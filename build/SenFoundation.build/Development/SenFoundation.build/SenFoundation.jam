@@ -1,0 +1,195 @@
+# Jamfile for configuration Development of target "SenFoundation" of project "SenFoundation"
+
+
+JAVAC_SOURCE_FILE_ENCODING default = MacRoman ;
+
+# Implicitly computed project-wide settings for project "SenFoundation"
+export deferred ANTICIPATED_BUILT_PRODUCTS_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred ANTICIPATED_TARGET_BUILD_DIR = $(CONFIGURATION_BUILD_DIR) ;
+export deferred BUILD_STYLE = "$(CONFIGURATION)" ;
+export deferred CONFIGURATION = Development ;
+export deferred CONFIGURATION_BUILD_DIR = $(BUILD_DIR)/$(CONFIGURATION) ;
+export deferred CONFIGURATION_TEMP_DIR = $(PROJECT_TEMP_DIR)/$(CONFIGURATION) ;
+export deferred DEVELOPMENT_LANGUAGE = English ;
+export deferred GROUP = pharkas ;
+export deferred PROJECT = $(PROJECT_NAME) ;
+export deferred PROJECT_DIR = /Users/pharkas/Desktop/GobanSourceCode/SenFoundation ;
+export deferred PROJECT_FILE_PATH = /Users/pharkas/Desktop/GobanSourceCode/SenFoundation/SenFoundation.xcodeproj ;
+export deferred PROJECT_NAME = SenFoundation ;
+export deferred PROJECT_TEMP_DIR = $(OBJROOT)/$(PROJECT_NAME).build ;
+export deferred SRCROOT = /Users/pharkas/Desktop/GobanSourceCode/SenFoundation ;
+export deferred TARGET_TEMP_DIR = $(CONFIGURATION_TEMP_DIR)/$(TARGET_NAME).build ;
+export deferred TEMP_DIR = $(TARGET_TEMP_DIR) ;
+export deferred USER = pharkas ;
+
+# Project-wide settings for project "SenFoundation"
+
+# User-defined project-wide settings for project "SenFoundation"
+
+# Build Settings for target "SenFoundation"
+
+export deferred _INFO_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/Info.plist" ;
+export deferred _PKGINFO_FILE_PATH = "$(TARGET_TEMP_DIR)/PkgInfo" ;
+export deferred _PBDEVELOPMENT_PLIST_FILE_PATH = "$(TARGET_TEMP_DIR)/pbdevelopment.plist" ;
+
+# Implicitly computed build settings for target "SenFoundation"
+export deferred CLONE_HEADERS = NO ;
+export deferred PFE_FILE_C_DIALECTS = objective-c ;
+export deferred TARGETNAME = $(TARGET_NAME) ;
+export deferred TARGET_NAME = SenFoundation ;
+
+# User-defined build settings for target "SenFoundation"
+export deferred COPY_PHASE_STRIP = NO ;
+export deferred DYLIB_COMPATIBILITY_VERSION = 1 ;
+export deferred DYLIB_CURRENT_VERSION = 1 ;
+export deferred FRAMEWORK_VERSION = A ;
+export deferred GCC_DYNAMIC_NO_PIC = NO ;
+export deferred GCC_ENABLE_FIX_AND_CONTINUE = YES ;
+export deferred GCC_GENERATE_DEBUGGING_SYMBOLS = YES ;
+export deferred GCC_OPTIMIZATION_LEVEL = 0 ;
+export deferred INSTALL_PATH = "@executable_path/../Frameworks" ;
+export deferred OPTIMIZATION_CFLAGS = -O3 ;
+export deferred OTHER_CFLAGS = -DMACOSX ;
+export deferred OTHER_LDFLAGS = -seg1addr 0x15000000 ;
+export deferred OTHER_LIBTOOL_FLAGS =  ;
+export deferred OTHER_REZFLAGS =  ;
+export deferred PRINCIPAL_CLASS =  ;
+export deferred PRODUCT_NAME = SenFoundation ;
+export deferred SECTORDER_FLAGS =  ;
+export deferred SKIP_INSTALL = YES ;
+export deferred WARNING_CFLAGS = -Wmost -Wno-four-char-constants -Wno-unknown-pragmas ;
+export deferred WRAPPER_EXTENSION = framework ;
+export deferred ZERO_LINK = YES ;
+
+# Target "SenFoundation"
+
+ConditionalDefinitions _ ;
+commitdeferred ;
+
+
+BeginFramework "<SenFoundation>SenFoundation.framework" ;
+
+# Headers
+NSArray_SenAdditions.h_ATTRIBUTES = Public ;
+NSBundle_SenAdditions.h_ATTRIBUTES = Public ;
+NSException_SenAdditions.h_ATTRIBUTES = Public ;
+NSMutableDictionary_SenAdditions.h_ATTRIBUTES = Public ;
+NSObject_SenAdditions.h_ATTRIBUTES = Public ;
+NSObject_SenRuntimeUtilities.h_ATTRIBUTES = Public ;
+NSObject_SenTree.h_ATTRIBUTES = Public ;
+NSString_SenAdditions.h_ATTRIBUTES = Public ;
+NSTask_SenAdditions.h_ATTRIBUTES = Public ;
+NSUserDefaults_SenAdditions.h_ATTRIBUTES = Public ;
+SenAssertion.h_ATTRIBUTES = Public ;
+SenCollection.h_ATTRIBUTES = Public ;
+SenDateInterval.h_ATTRIBUTES = Public ;
+SenEmptiness.h_ATTRIBUTES = Public ;
+SenFileSystemTree.h_ATTRIBUTES = Public ;
+SenFoundation.h_ATTRIBUTES = Public ;
+SenFoundationDefines.h_ATTRIBUTES = Public ;
+SenSelection.h_ATTRIBUTES = Public ;
+SenTreeEnumerator.h_ATTRIBUTES = Public ;
+SenTrees.h_ATTRIBUTES = Public ;
+SenUtilities.h_ATTRIBUTES = Public ;
+HEADERS =
+	NSArray_SenAdditions.h
+	NSBundle_SenAdditions.h
+	NSException_SenAdditions.h
+	NSMutableDictionary_SenAdditions.h
+	NSObject_SenAdditions.h
+	NSObject_SenRuntimeUtilities.h
+	NSObject_SenTree.h
+	NSString_SenAdditions.h
+	NSTask_SenAdditions.h
+	NSUserDefaults_SenAdditions.h
+	SenAssertion.h
+	SenClassEnumerator.h
+	SenCollection.h
+	SenDateInterval.h
+	SenEmptiness.h
+	SenFileSystemTree.h
+	SenFoundation.h
+	SenFoundationDefines.h
+	SenInvocationEnumerator.h
+	SenSelection.h
+	SenTreeEnumerator.h
+	SenTrees.h
+	SenUtilities.h ;
+ProcessHeaders "<SenFoundation>SenFoundation.framework" : "$(HEADERS)" : "" : BPTag000 ;
+
+# Resources
+"BundleInserter-windows.postamble_UNIQUENAME" = "BundleInserter-windows_01" ;
+BundleInserter.postamble_UNIQUENAME = BundleInserter_01 ;
+"BundleInserter-windows.gdb_UNIQUENAME" = "BundleInserter-windows_02" ;
+BundleInserter.gdb_UNIQUENAME = BundleInserter_02 ;
+French.lproj/SenDateInterval.strings_REGION = French ;
+French.lproj/SenDateInterval.strings_UNIQUENAME = SenDateInterval_01 ;
+English.lproj/SenDateInterval.strings_REGION = English ;
+English.lproj/SenDateInterval.strings_UNIQUENAME = SenDateInterval_02 ;
+"BundleInserter-windows.preamble_UNIQUENAME" = "BundleInserter-windows_03" ;
+BundleInserter.preamble_UNIQUENAME = BundleInserter_03 ;
+RESOURCES =
+	"BundleInserter-windows.postamble"
+	BundleInserter.postamble
+	"BundleInserter-windows.gdb"
+	BundleInserter.gdb
+	French.lproj/SenDateInterval.strings
+	English.lproj/SenDateInterval.strings
+	"BundleInserter-windows.preamble"
+	BundleInserter.preamble ;
+ProcessResources "<SenFoundation>SenFoundation.framework" : "$(RESOURCES)" : BPTag000 : BPTag001 ;
+
+# Sources
+NSArray_SenAdditions.m_ATTRIBUTES = ;
+NSBundle_SenAdditions.m_ATTRIBUTES = ;
+NSException_SenAdditions.m_ATTRIBUTES = ;
+NSMutableDictionary_SenAdditions.m_ATTRIBUTES = ;
+NSObject_SenAdditions.m_ATTRIBUTES = ;
+NSObject_SenRuntimeUtilities.m_ATTRIBUTES = ;
+NSObject_SenTree.m_ATTRIBUTES = ;
+NSString_SenAdditions.m_ATTRIBUTES = ;
+NSTask_SenAdditions.m_ATTRIBUTES = ;
+NSUserDefaults_SenAdditions.m_ATTRIBUTES = ;
+SenClassEnumerator.m_ATTRIBUTES = ;
+SenCollection.m_ATTRIBUTES = ;
+SenDateInterval.m_ATTRIBUTES = ;
+SenEmptiness.m_ATTRIBUTES = ;
+SenFileSystemTree.m_ATTRIBUTES = ;
+SenInvocationEnumerator.m_ATTRIBUTES = ;
+SenSelection.m_ATTRIBUTES = ;
+SenTreeEnumerator.m_ATTRIBUTES = ;
+SenUtilities.m_ATTRIBUTES = ;
+SOURCES =
+	NSArray_SenAdditions.m
+	NSBundle_SenAdditions.m
+	NSException_SenAdditions.m
+	NSMutableDictionary_SenAdditions.m
+	NSObject_SenAdditions.m
+	NSObject_SenRuntimeUtilities.m
+	NSObject_SenTree.m
+	NSString_SenAdditions.m
+	NSTask_SenAdditions.m
+	NSUserDefaults_SenAdditions.m
+	SenClassEnumerator.m
+	SenCollection.m
+	SenDateInterval.m
+	SenEmptiness.m
+	SenFileSystemTree.m
+	SenInvocationEnumerator.m
+	SenSelection.m
+	SenTreeEnumerator.m
+	SenUtilities.m ;
+ProcessSources "<SenFoundation>SenFoundation.framework" : "$(SOURCES)" : BPTag001 : BPTag002 ;
+
+# Frameworks & Libraries
+/System/Library/Frameworks/Foundation.framework_ATTRIBUTES = AbsolutePath ;
+FRAMEWORKS_AND_LIBRARIES = /System/Library/Frameworks/Foundation.framework ;
+ProcessFrameworksAndLibraries "<SenFoundation>SenFoundation.framework" : "$(FRAMEWORKS_AND_LIBRARIES)" : BPTag002 : BPTag003 ;
+
+# Rez Files
+REZ_FILES = ;
+ProcessRezFiles "<SenFoundation>SenFoundation.framework" : "$(REZ_FILES)" : BPTag003 : BPTag004 ;
+
+include $(TEMP_DIR)/HeaderDependencies.jam ;
+EndFramework "<SenFoundation>SenFoundation.framework" ;
+

@@ -1,0 +1,87 @@
+// !$*UTF8*$!
+{
+	0DDBA94C0081C7AFC0A8000F = {
+		activeBuildStyle = 0EDC856E0081DBCBC0A8000F;
+		activeTarget = 0DDBA9930081C7AFC0A8000F;
+		perUserDictionary = {
+			PBXWorkspaceConfiguration = {
+				ContentSize = "{886, 649}";
+				LeftSlideOut = {
+					ActiveTab = 0;
+					Frame = "{{0, 23}, {886, 626}}";
+					Split0 = {
+						ActiveTab = 2;
+						Frame = "{{339, 0}, {547, 626}}";
+						Split0 = {
+							Frame = "{{0, 217}, {547, 409}}";
+						};
+						SplitCount = 1;
+						Tab0 = {
+							Debugger = {
+								Frame = "{{0, 0}, {484, 208}}";
+								Split0 = {
+									Frame = "{{0, 25}, {484, 183}}";
+									Split0 = {
+										Frame = "{{0, 0}, {236, 183}}";
+									};
+									Split1 = {
+										Frame = "{{245, 0}, {239, 183}}";
+									};
+									SplitCount = 2;
+								};
+								SplitCount = 1;
+								Tab0 = {
+									Frame = "{{0, 0}, {100, 50}}";
+								};
+								TabCount = 1;
+							};
+							Frame = "{{0, 0}, {484, 208}}";
+							LauncherConfigVersion = 4;
+						};
+						Tab1 = {
+							Frame = "{{0, 0}, {484, 208}}";
+							LauncherConfigVersion = 3;
+							Runner = {
+								Frame = "{{0, 0}, {484, 208}}";
+							};
+						};
+						Tab2 = {
+							BuildMessageFrame = "{{0, 0}, {551, 139}}";
+							BuildTranscriptFrame = "{{0, 148}, {551, 46}}";
+							Frame = "{{0, 0}, {547, 192}}";
+						};
+						Tab3 = {
+							Frame = "{{0, 0}, {612, 295}}";
+						};
+						TabCount = 4;
+					};
+					SplitCount = 1;
+					Tab0 = {
+						Frame = "{{0, 0}, {314, 626}}";
+					};
+					Tab1 = {
+						Frame = "{{0, 0}, {200, 100}}";
+					};
+					Tab2 = {
+						Frame = "{{0, 0}, {200, 100}}";
+						Split0 = {
+							Frame = "{{0, 0}, {200, 45}}";
+						};
+						Split1 = {
+							Frame = "{{0, 54}, {200, 46}}";
+						};
+						SplitCount = 2;
+					};
+					Tab3 = {
+						Frame = "{{0, 0}, {250, 100}}";
+					};
+					TabCount = 4;
+				};
+				WindowLoc = "{30, 5}";
+			};
+		};
+	};
+	0DDBA9930081C7AFC0A8000F = {
+		activeExec = 0;
+	};
+}
