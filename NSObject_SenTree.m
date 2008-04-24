@@ -36,7 +36,7 @@
     return ([self parent] == nil);
 }
 
--  root
+- (id) root
 {
     if([self isRoot])
         return self;
@@ -138,7 +138,7 @@
     return YES;
 }
 
-- (BOOL)isEqualToNode:(id)anotherNode
+- (BOOL) isEqualToNode:(NSObject *)anotherNode
 {
     return YES;
 }

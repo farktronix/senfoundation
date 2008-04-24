@@ -41,7 +41,7 @@ SENFOUNDATION_EXPORT NSString *SenSelectionDidChangeNotification;
 - (unsigned int) count;
 - (id) objectAtIndex:(unsigned int)anIndex;
 - (NSEnumerator *) objectEnumerator;
-- (BOOL) containsObject:(id)anObject;
+- (BOOL) containsObject:(NSObject *)anObject;
 
 - (void) empty;
 - (BOOL) isEmpty;

@@ -95,7 +95,7 @@ static NSString *bundleInserterCommandFile = @"BundleInserter";
     NSString *path = [NSString stringWithFormat:@"%@/%@",
         NSTemporaryDirectory(),
         [[[NSProcessInfo processInfo] globallyUniqueString] copy]];
-    return [[commands componentsJoinedByString:@"\n"] writeToFile:path atomically:NO] ? path : nil;
+    return [[commands componentsJoinedByString:@"\n"] writeToFile:path atomically:NO encoding:NSUTF8StringEncoding error:nil] ? path : nil;
 }
 
 

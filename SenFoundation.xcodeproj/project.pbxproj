@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DDBA9950081C7AFC0A8000F /* NSArray_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9630081C7AFC0A8000F /* NSArray_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9960081C7AFC0A8000F /* NSBundle_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9640081C7AFC0A8000F /* NSBundle_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9970081C7AFC0A8000F /* NSException_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9650081C7AFC0A8000F /* NSException_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9980081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9660081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9990081C7AFC0A8000F /* NSObject_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9670081C7AFC0A8000F /* NSObject_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99A0081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9680081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99B0081C7AFC0A8000F /* NSObject_SenTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9690081C7AFC0A8000F /* NSObject_SenTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99C0081C7AFC0A8000F /* NSString_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96A0081C7AFC0A8000F /* NSString_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99D0081C7AFC0A8000F /* NSTask_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96B0081C7AFC0A8000F /* NSTask_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99E0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96C0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA99F0081C7AFC0A8000F /* SenAssertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96D0081C7AFC0A8000F /* SenAssertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A00081C7AFC0A8000F /* SenClassEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96E0081C7AFC0A8000F /* SenClassEnumerator.h */; };
-		0DDBA9A10081C7AFC0A8000F /* SenCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96F0081C7AFC0A8000F /* SenCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A20081C7AFC0A8000F /* SenDateInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9700081C7AFC0A8000F /* SenDateInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A30081C7AFC0A8000F /* SenEmptiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9710081C7AFC0A8000F /* SenEmptiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A40081C7AFC0A8000F /* SenFileSystemTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9720081C7AFC0A8000F /* SenFileSystemTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A50081C7AFC0A8000F /* SenFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9730081C7AFC0A8000F /* SenFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A60081C7AFC0A8000F /* SenFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9740081C7AFC0A8000F /* SenFoundationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A70081C7AFC0A8000F /* SenInvocationEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9750081C7AFC0A8000F /* SenInvocationEnumerator.h */; };
-		0DDBA9A80081C7AFC0A8000F /* SenSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9760081C7AFC0A8000F /* SenSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9A90081C7AFC0A8000F /* SenTreeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9770081C7AFC0A8000F /* SenTreeEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9AA0081C7AFC0A8000F /* SenTrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9780081C7AFC0A8000F /* SenTrees.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9AB0081C7AFC0A8000F /* SenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9790081C7AFC0A8000F /* SenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DDBA9AD0081C7AFC0A8000F /* BundleInserter.postamble in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA97B0081C7AFC0A8000F /* BundleInserter.postamble */; };
-		0DDBA9AE0081C7AFC0A8000F /* BundleInserter.gdb in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA97E0081C7AFC0A8000F /* BundleInserter.gdb */; };
-		0DDBA9AF0081C7AFC0A8000F /* SenDateInterval.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA9810081C7AFC0A8000F /* SenDateInterval.strings */; };
-		0DDBA9B00081C7AFC0A8000F /* BundleInserter.preamble in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA9840081C7AFC0A8000F /* BundleInserter.preamble */; };
-		0DDBA9B20081C7AFC0A8000F /* NSArray_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA94F0081C7AFC0A8000F /* NSArray_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B30081C7AFC0A8000F /* NSBundle_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9500081C7AFC0A8000F /* NSBundle_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B40081C7AFC0A8000F /* NSException_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9510081C7AFC0A8000F /* NSException_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B50081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9520081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B60081C7AFC0A8000F /* NSObject_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9530081C7AFC0A8000F /* NSObject_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B70081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9540081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B80081C7AFC0A8000F /* NSObject_SenTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9550081C7AFC0A8000F /* NSObject_SenTree.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9B90081C7AFC0A8000F /* NSString_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9560081C7AFC0A8000F /* NSString_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BA0081C7AFC0A8000F /* NSTask_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9570081C7AFC0A8000F /* NSTask_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BB0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9580081C7AFC0A8000F /* NSUserDefaults_SenAdditions.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BC0081C7AFC0A8000F /* SenClassEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9590081C7AFC0A8000F /* SenClassEnumerator.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BD0081C7AFC0A8000F /* SenCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95A0081C7AFC0A8000F /* SenCollection.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BE0081C7AFC0A8000F /* SenDateInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95B0081C7AFC0A8000F /* SenDateInterval.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9BF0081C7AFC0A8000F /* SenEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95C0081C7AFC0A8000F /* SenEmptiness.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C00081C7AFC0A8000F /* SenFileSystemTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95D0081C7AFC0A8000F /* SenFileSystemTree.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C10081C7AFC0A8000F /* SenInvocationEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95E0081C7AFC0A8000F /* SenInvocationEnumerator.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C20081C7AFC0A8000F /* SenSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95F0081C7AFC0A8000F /* SenSelection.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C30081C7AFC0A8000F /* SenTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9600081C7AFC0A8000F /* SenTreeEnumerator.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C40081C7AFC0A8000F /* SenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9610081C7AFC0A8000F /* SenUtilities.m */; settings = {ATTRIBUTES = (); }; };
-		0DDBA9C60081C7AFC0A8000F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDBA98F0081C7AFC0A8000F /* Foundation.framework */; };
+		43B8CCF20DC05216001128F3 /* NSArray_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9630081C7AFC0A8000F /* NSArray_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF30DC05216001128F3 /* NSBundle_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9640081C7AFC0A8000F /* NSBundle_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF40DC05216001128F3 /* NSException_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9650081C7AFC0A8000F /* NSException_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF50DC05216001128F3 /* NSMutableDictionary_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9660081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF60DC05216001128F3 /* NSObject_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9670081C7AFC0A8000F /* NSObject_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF70DC05216001128F3 /* NSObject_SenRuntimeUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9680081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF80DC05216001128F3 /* NSObject_SenTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9690081C7AFC0A8000F /* NSObject_SenTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCF90DC05216001128F3 /* NSString_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96A0081C7AFC0A8000F /* NSString_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCFA0DC05216001128F3 /* NSTask_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96B0081C7AFC0A8000F /* NSTask_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCFB0DC05216001128F3 /* NSUserDefaults_SenAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96C0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCFC0DC05216001128F3 /* SenAssertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96D0081C7AFC0A8000F /* SenAssertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCFD0DC05216001128F3 /* SenClassEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96E0081C7AFC0A8000F /* SenClassEnumerator.h */; settings = {ATTRIBUTES = (); }; };
+		43B8CCFE0DC05216001128F3 /* SenCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA96F0081C7AFC0A8000F /* SenCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CCFF0DC05216001128F3 /* SenDateInterval.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9700081C7AFC0A8000F /* SenDateInterval.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD000DC05216001128F3 /* SenEmptiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9710081C7AFC0A8000F /* SenEmptiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD010DC05216001128F3 /* SenFileSystemTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9720081C7AFC0A8000F /* SenFileSystemTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD020DC05216001128F3 /* SenFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9730081C7AFC0A8000F /* SenFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD030DC05216001128F3 /* SenFoundationDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9740081C7AFC0A8000F /* SenFoundationDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD040DC05216001128F3 /* SenInvocationEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9750081C7AFC0A8000F /* SenInvocationEnumerator.h */; settings = {ATTRIBUTES = (); }; };
+		43B8CD050DC05216001128F3 /* SenSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9760081C7AFC0A8000F /* SenSelection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD060DC05216001128F3 /* SenTreeEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9770081C7AFC0A8000F /* SenTreeEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD070DC05216001128F3 /* SenTrees.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9780081C7AFC0A8000F /* SenTrees.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD080DC05216001128F3 /* SenUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDBA9790081C7AFC0A8000F /* SenUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B8CD1B0DC052C4001128F3 /* BundleInserter.gdb in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA97E0081C7AFC0A8000F /* BundleInserter.gdb */; };
+		43B8CD1C0DC052C4001128F3 /* SenDateInterval.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA9810081C7AFC0A8000F /* SenDateInterval.strings */; };
+		43B8CD1D0DC052C4001128F3 /* BundleInserter.preamble in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA9840081C7AFC0A8000F /* BundleInserter.preamble */; };
+		43B8CD1E0DC052C4001128F3 /* BundleInserter.postamble in Resources */ = {isa = PBXBuildFile; fileRef = 0DDBA97B0081C7AFC0A8000F /* BundleInserter.postamble */; };
+		43B8CD1F0DC052CF001128F3 /* SenClassEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9590081C7AFC0A8000F /* SenClassEnumerator.m */; };
+		43B8CD200DC052CF001128F3 /* NSTask_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9570081C7AFC0A8000F /* NSTask_SenAdditions.m */; };
+		43B8CD210DC052CF001128F3 /* NSObject_SenRuntimeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9540081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.m */; };
+		43B8CD220DC052CF001128F3 /* NSBundle_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9500081C7AFC0A8000F /* NSBundle_SenAdditions.m */; };
+		43B8CD230DC052CF001128F3 /* NSObject_SenTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9550081C7AFC0A8000F /* NSObject_SenTree.m */; };
+		43B8CD240DC052CF001128F3 /* NSMutableDictionary_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9520081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.m */; };
+		43B8CD250DC052CF001128F3 /* NSArray_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA94F0081C7AFC0A8000F /* NSArray_SenAdditions.m */; };
+		43B8CD260DC052CF001128F3 /* SenUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9610081C7AFC0A8000F /* SenUtilities.m */; };
+		43B8CD270DC052CF001128F3 /* SenTreeEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9600081C7AFC0A8000F /* SenTreeEnumerator.m */; };
+		43B8CD280DC052CF001128F3 /* SenSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95F0081C7AFC0A8000F /* SenSelection.m */; };
+		43B8CD290DC052CF001128F3 /* SenInvocationEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95E0081C7AFC0A8000F /* SenInvocationEnumerator.m */; };
+		43B8CD2A0DC052CF001128F3 /* SenFileSystemTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95D0081C7AFC0A8000F /* SenFileSystemTree.m */; };
+		43B8CD2B0DC052CF001128F3 /* NSString_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9560081C7AFC0A8000F /* NSString_SenAdditions.m */; };
+		43B8CD2C0DC052CF001128F3 /* SenDateInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95B0081C7AFC0A8000F /* SenDateInterval.m */; };
+		43B8CD2D0DC052CF001128F3 /* NSObject_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9530081C7AFC0A8000F /* NSObject_SenAdditions.m */; };
+		43B8CD2E0DC052CF001128F3 /* SenCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95A0081C7AFC0A8000F /* SenCollection.m */; };
+		43B8CD2F0DC052CF001128F3 /* NSException_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9510081C7AFC0A8000F /* NSException_SenAdditions.m */; };
+		43B8CD300DC052CF001128F3 /* SenEmptiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA95C0081C7AFC0A8000F /* SenEmptiness.m */; };
+		43B8CD310DC052CF001128F3 /* NSUserDefaults_SenAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBA9580081C7AFC0A8000F /* NSUserDefaults_SenAdditions.m */; };
+		43B8CD320DC052DC001128F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDBA98F0081C7AFC0A8000F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,64 +114,16 @@
 		0DDBA98C0081C7AFC0A8000F /* Makefile.preamble */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.preamble; sourceTree = "<group>"; };
 		0DDBA98D0081C7AFC0A8000F /* OpenSourceLicense.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = OpenSourceLicense.html; sourceTree = "<group>"; };
 		0DDBA98F0081C7AFC0A8000F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		0DDBA9920081C7AFC0A8000F /* SenFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SenFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B8CCEB0DC05204001128F3 /* SenFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SenFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B8CCEC0DC05204001128F3 /* SenFoundation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SenFoundation-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworkTarget section */
-		0DDBA9930081C7AFC0A8000F /* SenFoundation */ = {
-			isa = PBXFrameworkTarget;
-			buildConfigurationList = 43CD7B7A0DBFCAE800644FF2 /* Build configuration list for PBXFrameworkTarget "SenFoundation" */;
-			buildPhases = (
-				0DDBA9940081C7AFC0A8000F /* Headers */,
-				0DDBA9AC0081C7AFC0A8000F /* Resources */,
-				0DDBA9B10081C7AFC0A8000F /* Sources */,
-				0DDBA9C50081C7AFC0A8000F /* Frameworks */,
-				0DDBA9C70081C7AFC0A8000F /* Rez */,
-			);
-			dependencies = (
-			);
-			name = SenFoundation;
-			productInstallPath = "@executable_path/../Frameworks";
-			productName = "SenFoundation (Framework)";
-			productReference = 0DDBA9920081C7AFC0A8000F /* SenFoundation.framework */;
-			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
-<plist version=\"1.0\">
-<dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleExecutable</key>
-	<string>SenFoundation</string>
-	<key>CFBundleGetInfoString</key>
-	<string></string>
-	<key>CFBundleIconFile</key>
-	<string></string>
-	<key>CFBundleIdentifier</key>
-	<string></string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string></string>
-	<key>CFBundlePackageType</key>
-	<string>FMWK</string>
-	<key>CFBundleShortVersionString</key>
-	<string></string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
-	<key>CFBundleVersion</key>
-	<string>0.0.1d1</string>
-</dict>
-</plist>
-";
-		};
-/* End PBXFrameworkTarget section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		0DDBA9C50081C7AFC0A8000F /* Frameworks */ = {
+		43B8CCE90DC05204001128F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDBA9C60081C7AFC0A8000F /* Foundation.framework in Frameworks */,
+				43B8CD320DC052DC001128F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +139,7 @@
 				0DDBA9870081C7AFC0A8000F /* Supporting Files */,
 				0DDBA98E0081C7AFC0A8000F /* External Frameworks and Libraries */,
 				0DDBA9910081C7AFC0A8000F /* Products */,
+				43B8CCEC0DC05204001128F3 /* SenFoundation-Info.plist */,
 			);
 			name = SenFoundation;
 			sourceTree = "<group>";
@@ -282,7 +235,7 @@
 		0DDBA9910081C7AFC0A8000F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDBA9920081C7AFC0A8000F /* SenFoundation.framework */,
+				43B8CCEB0DC05204001128F3 /* SenFoundation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -290,37 +243,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DDBA9940081C7AFC0A8000F /* Headers */ = {
+		43B8CCE60DC05204001128F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDBA9950081C7AFC0A8000F /* NSArray_SenAdditions.h in Headers */,
-				0DDBA9960081C7AFC0A8000F /* NSBundle_SenAdditions.h in Headers */,
-				0DDBA9970081C7AFC0A8000F /* NSException_SenAdditions.h in Headers */,
-				0DDBA9980081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.h in Headers */,
-				0DDBA9990081C7AFC0A8000F /* NSObject_SenAdditions.h in Headers */,
-				0DDBA99A0081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.h in Headers */,
-				0DDBA99B0081C7AFC0A8000F /* NSObject_SenTree.h in Headers */,
-				0DDBA99C0081C7AFC0A8000F /* NSString_SenAdditions.h in Headers */,
-				0DDBA99D0081C7AFC0A8000F /* NSTask_SenAdditions.h in Headers */,
-				0DDBA99E0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.h in Headers */,
-				0DDBA99F0081C7AFC0A8000F /* SenAssertion.h in Headers */,
-				0DDBA9A00081C7AFC0A8000F /* SenClassEnumerator.h in Headers */,
-				0DDBA9A10081C7AFC0A8000F /* SenCollection.h in Headers */,
-				0DDBA9A20081C7AFC0A8000F /* SenDateInterval.h in Headers */,
-				0DDBA9A30081C7AFC0A8000F /* SenEmptiness.h in Headers */,
-				0DDBA9A40081C7AFC0A8000F /* SenFileSystemTree.h in Headers */,
-				0DDBA9A50081C7AFC0A8000F /* SenFoundation.h in Headers */,
-				0DDBA9A60081C7AFC0A8000F /* SenFoundationDefines.h in Headers */,
-				0DDBA9A70081C7AFC0A8000F /* SenInvocationEnumerator.h in Headers */,
-				0DDBA9A80081C7AFC0A8000F /* SenSelection.h in Headers */,
-				0DDBA9A90081C7AFC0A8000F /* SenTreeEnumerator.h in Headers */,
-				0DDBA9AA0081C7AFC0A8000F /* SenTrees.h in Headers */,
-				0DDBA9AB0081C7AFC0A8000F /* SenUtilities.h in Headers */,
+				43B8CCF20DC05216001128F3 /* NSArray_SenAdditions.h in Headers */,
+				43B8CCF30DC05216001128F3 /* NSBundle_SenAdditions.h in Headers */,
+				43B8CCF40DC05216001128F3 /* NSException_SenAdditions.h in Headers */,
+				43B8CCF50DC05216001128F3 /* NSMutableDictionary_SenAdditions.h in Headers */,
+				43B8CCF60DC05216001128F3 /* NSObject_SenAdditions.h in Headers */,
+				43B8CCF70DC05216001128F3 /* NSObject_SenRuntimeUtilities.h in Headers */,
+				43B8CCF80DC05216001128F3 /* NSObject_SenTree.h in Headers */,
+				43B8CCF90DC05216001128F3 /* NSString_SenAdditions.h in Headers */,
+				43B8CCFA0DC05216001128F3 /* NSTask_SenAdditions.h in Headers */,
+				43B8CCFB0DC05216001128F3 /* NSUserDefaults_SenAdditions.h in Headers */,
+				43B8CCFC0DC05216001128F3 /* SenAssertion.h in Headers */,
+				43B8CCFD0DC05216001128F3 /* SenClassEnumerator.h in Headers */,
+				43B8CCFE0DC05216001128F3 /* SenCollection.h in Headers */,
+				43B8CCFF0DC05216001128F3 /* SenDateInterval.h in Headers */,
+				43B8CD000DC05216001128F3 /* SenEmptiness.h in Headers */,
+				43B8CD010DC05216001128F3 /* SenFileSystemTree.h in Headers */,
+				43B8CD020DC05216001128F3 /* SenFoundation.h in Headers */,
+				43B8CD030DC05216001128F3 /* SenFoundationDefines.h in Headers */,
+				43B8CD040DC05216001128F3 /* SenInvocationEnumerator.h in Headers */,
+				43B8CD050DC05216001128F3 /* SenSelection.h in Headers */,
+				43B8CD060DC05216001128F3 /* SenTreeEnumerator.h in Headers */,
+				43B8CD070DC05216001128F3 /* SenTrees.h in Headers */,
+				43B8CD080DC05216001128F3 /* SenUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43B8CCEA0DC05204001128F3 /* SenFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B8CCF10DC05204001128F3 /* Build configuration list for PBXNativeTarget "SenFoundation" */;
+			buildPhases = (
+				43B8CCE60DC05204001128F3 /* Headers */,
+				43B8CCE70DC05204001128F3 /* Resources */,
+				43B8CCE80DC05204001128F3 /* Sources */,
+				43B8CCE90DC05204001128F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenFoundation;
+			productName = SenFoundation;
+			productReference = 43B8CCEB0DC05204001128F3 /* SenFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0DDBA94C0081C7AFC0A8000F /* Project object */ = {
@@ -333,59 +307,49 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDBA9930081C7AFC0A8000F /* SenFoundation */,
+				43B8CCEA0DC05204001128F3 /* SenFoundation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0DDBA9AC0081C7AFC0A8000F /* Resources */ = {
+		43B8CCE70DC05204001128F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDBA9AD0081C7AFC0A8000F /* BundleInserter.postamble in Resources */,
-				0DDBA9AE0081C7AFC0A8000F /* BundleInserter.gdb in Resources */,
-				0DDBA9AF0081C7AFC0A8000F /* SenDateInterval.strings in Resources */,
-				0DDBA9B00081C7AFC0A8000F /* BundleInserter.preamble in Resources */,
+				43B8CD1B0DC052C4001128F3 /* BundleInserter.gdb in Resources */,
+				43B8CD1C0DC052C4001128F3 /* SenDateInterval.strings in Resources */,
+				43B8CD1D0DC052C4001128F3 /* BundleInserter.preamble in Resources */,
+				43B8CD1E0DC052C4001128F3 /* BundleInserter.postamble in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXRezBuildPhase section */
-		0DDBA9C70081C7AFC0A8000F /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0DDBA9B10081C7AFC0A8000F /* Sources */ = {
+		43B8CCE80DC05204001128F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDBA9B20081C7AFC0A8000F /* NSArray_SenAdditions.m in Sources */,
-				0DDBA9B30081C7AFC0A8000F /* NSBundle_SenAdditions.m in Sources */,
-				0DDBA9B40081C7AFC0A8000F /* NSException_SenAdditions.m in Sources */,
-				0DDBA9B50081C7AFC0A8000F /* NSMutableDictionary_SenAdditions.m in Sources */,
-				0DDBA9B60081C7AFC0A8000F /* NSObject_SenAdditions.m in Sources */,
-				0DDBA9B70081C7AFC0A8000F /* NSObject_SenRuntimeUtilities.m in Sources */,
-				0DDBA9B80081C7AFC0A8000F /* NSObject_SenTree.m in Sources */,
-				0DDBA9B90081C7AFC0A8000F /* NSString_SenAdditions.m in Sources */,
-				0DDBA9BA0081C7AFC0A8000F /* NSTask_SenAdditions.m in Sources */,
-				0DDBA9BB0081C7AFC0A8000F /* NSUserDefaults_SenAdditions.m in Sources */,
-				0DDBA9BC0081C7AFC0A8000F /* SenClassEnumerator.m in Sources */,
-				0DDBA9BD0081C7AFC0A8000F /* SenCollection.m in Sources */,
-				0DDBA9BE0081C7AFC0A8000F /* SenDateInterval.m in Sources */,
-				0DDBA9BF0081C7AFC0A8000F /* SenEmptiness.m in Sources */,
-				0DDBA9C00081C7AFC0A8000F /* SenFileSystemTree.m in Sources */,
-				0DDBA9C10081C7AFC0A8000F /* SenInvocationEnumerator.m in Sources */,
-				0DDBA9C20081C7AFC0A8000F /* SenSelection.m in Sources */,
-				0DDBA9C30081C7AFC0A8000F /* SenTreeEnumerator.m in Sources */,
-				0DDBA9C40081C7AFC0A8000F /* SenUtilities.m in Sources */,
+				43B8CD1F0DC052CF001128F3 /* SenClassEnumerator.m in Sources */,
+				43B8CD200DC052CF001128F3 /* NSTask_SenAdditions.m in Sources */,
+				43B8CD210DC052CF001128F3 /* NSObject_SenRuntimeUtilities.m in Sources */,
+				43B8CD220DC052CF001128F3 /* NSBundle_SenAdditions.m in Sources */,
+				43B8CD230DC052CF001128F3 /* NSObject_SenTree.m in Sources */,
+				43B8CD240DC052CF001128F3 /* NSMutableDictionary_SenAdditions.m in Sources */,
+				43B8CD250DC052CF001128F3 /* NSArray_SenAdditions.m in Sources */,
+				43B8CD260DC052CF001128F3 /* SenUtilities.m in Sources */,
+				43B8CD270DC052CF001128F3 /* SenTreeEnumerator.m in Sources */,
+				43B8CD280DC052CF001128F3 /* SenSelection.m in Sources */,
+				43B8CD290DC052CF001128F3 /* SenInvocationEnumerator.m in Sources */,
+				43B8CD2A0DC052CF001128F3 /* SenFileSystemTree.m in Sources */,
+				43B8CD2B0DC052CF001128F3 /* NSString_SenAdditions.m in Sources */,
+				43B8CD2C0DC052CF001128F3 /* SenDateInterval.m in Sources */,
+				43B8CD2D0DC052CF001128F3 /* NSObject_SenAdditions.m in Sources */,
+				43B8CD2E0DC052CF001128F3 /* SenCollection.m in Sources */,
+				43B8CD2F0DC052CF001128F3 /* NSException_SenAdditions.m in Sources */,
+				43B8CD300DC052CF001128F3 /* SenEmptiness.m in Sources */,
+				43B8CD310DC052CF001128F3 /* NSUserDefaults_SenAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,127 +395,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		43CD7B7B0DBFCAE800644FF2 /* Development */ = {
+		43B8CCED0DC05204001128F3 /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SenFoundation-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
-				OPTIMIZATION_CFLAGS = "-O3";
 				OTHER_CFLAGS = "-DMACOSX";
 				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0x15000000,
+					"-framework",
+					Foundation,
 				);
-				OTHER_LIBTOOL_FLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRINCIPAL_CLASS = "";
+				PREBINDING = NO;
 				PRODUCT_NAME = SenFoundation;
-				SECTORDER_FLAGS = "";
-				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
-				ZERO_LINK = YES;
 			};
 			name = Development;
 		};
-		43CD7B7C0DBFCAE800644FF2 /* Deployment */ = {
+		43B8CCEE0DC05204001128F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				OPTIMIZATION_CFLAGS = "-O3";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "SenFoundation-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
 				OTHER_CFLAGS = "-DMACOSX";
 				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0x15000000,
+					"-framework",
+					Foundation,
 				);
-				OTHER_LIBTOOL_FLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRINCIPAL_CLASS = "";
+				PREBINDING = NO;
 				PRODUCT_NAME = SenFoundation;
-				SECTORDER_FLAGS = "";
-				SKIP_INSTALL = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
 				ZERO_LINK = NO;
 			};
-			name = Deployment;
-		};
-		43CD7B7D0DBFCAE800644FF2 /* Embedded */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_CFLAGS = "-DMACOSX";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0x15000000,
-				);
-				OTHER_LIBTOOL_FLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRINCIPAL_CLASS = "";
-				PRODUCT_NAME = SenFoundation;
-				SECTORDER_FLAGS = "";
-				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Embedded;
-		};
-		43CD7B7E0DBFCAE800644FF2 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_CFLAGS = "-DMACOSX";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0x15000000,
-				);
-				OTHER_LIBTOOL_FLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRINCIPAL_CLASS = "";
-				PRODUCT_NAME = SenFoundation;
-				SECTORDER_FLAGS = "";
-				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Default;
+			name = Release;
 		};
 		43CD7B800DBFCAE800644FF2 /* Development */ = {
 			isa = XCBuildConfiguration;
@@ -559,48 +455,32 @@
 			};
 			name = Development;
 		};
-		43CD7B810DBFCAE800644FF2 /* Deployment */ = {
+		43CD7B810DBFCAE800644FF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
-			name = Deployment;
-		};
-		43CD7B820DBFCAE800644FF2 /* Embedded */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Embedded;
-		};
-		43CD7B830DBFCAE800644FF2 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43CD7B7A0DBFCAE800644FF2 /* Build configuration list for PBXFrameworkTarget "SenFoundation" */ = {
+		43B8CCF10DC05204001128F3 /* Build configuration list for PBXNativeTarget "SenFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43CD7B7B0DBFCAE800644FF2 /* Development */,
-				43CD7B7C0DBFCAE800644FF2 /* Deployment */,
-				43CD7B7D0DBFCAE800644FF2 /* Embedded */,
-				43CD7B7E0DBFCAE800644FF2 /* Default */,
+				43B8CCED0DC05204001128F3 /* Development */,
+				43B8CCEE0DC05204001128F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Development;
 		};
 		43CD7B7F0DBFCAE800644FF2 /* Build configuration list for PBXProject "SenFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43CD7B800DBFCAE800644FF2 /* Development */,
-				43CD7B810DBFCAE800644FF2 /* Deployment */,
-				43CD7B820DBFCAE800644FF2 /* Embedded */,
-				43CD7B830DBFCAE800644FF2 /* Default */,
+				43CD7B810DBFCAE800644FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */
 	};
