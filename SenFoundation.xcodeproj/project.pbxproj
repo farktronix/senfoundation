@@ -56,42 +56,6 @@
 		0DDBA9C60081C7AFC0A8000F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDBA98F0081C7AFC0A8000F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildStyle section */
-		0EDC856D0081DBCBC0A8000F /* Development */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				ZERO_LINK = YES;
-			};
-			name = Development;
-		};
-		0EDC856E0081DBCBC0A8000F /* Deployment */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				SKIP_INSTALL = NO;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		F648EA67014AA24301000001 /* Embedded */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				SKIP_INSTALL = YES;
-			};
-			name = Embedded;
-		};
-/* End PBXBuildStyle section */
-
 /* Begin PBXFileReference section */
 		0DDBA94F0081C7AFC0A8000F /* NSArray_SenAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray_SenAdditions.m; sourceTree = "<group>"; };
 		0DDBA9500081C7AFC0A8000F /* NSBundle_SenAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSBundle_SenAdditions.m; sourceTree = "<group>"; };
@@ -164,30 +128,6 @@
 				0DDBA9C50081C7AFC0A8000F /* Frameworks */,
 				0DDBA9C70081C7AFC0A8000F /* Rez */,
 			);
-			buildSettings = {
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				INSTALL_PATH = "@executable_path/../Frameworks";
-				OPTIMIZATION_CFLAGS = "-O3";
-				OTHER_CFLAGS = "-DMACOSX";
-				OTHER_LDFLAGS = (
-					"-seg1addr",
-					0x15000000,
-				);
-				OTHER_LIBTOOL_FLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRINCIPAL_CLASS = "";
-				PRODUCT_NAME = SenFoundation;
-				SECTORDER_FLAGS = "";
-				SKIP_INSTALL = YES;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = framework;
-			};
 			dependencies = (
 			);
 			name = SenFoundation;
@@ -195,7 +135,7 @@
 			productName = "SenFoundation (Framework)";
 			productReference = 0DDBA9920081C7AFC0A8000F /* SenFoundation.framework */;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
@@ -386,17 +326,12 @@
 		0DDBA94C0081C7AFC0A8000F /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 43CD7B7F0DBFCAE800644FF2 /* Build configuration list for PBXProject "SenFoundation" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				0EDC856D0081DBCBC0A8000F /* Development */,
-				0EDC856E0081DBCBC0A8000F /* Deployment */,
-				F648EA67014AA24301000001 /* Embedded */,
-			);
+			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 0;
 			mainGroup = 0DDBA94D0081C7AFC0A8000F /* SenFoundation */;
 			productRefGroup = 0DDBA9910081C7AFC0A8000F /* Products */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				0DDBA9930081C7AFC0A8000F /* SenFoundation */,
 			);

@@ -1,6 +1,0 @@
-set args %@
-break start
-run
-disable breakpoints
-break main
-continue
